@@ -1,0 +1,97 @@
+======================================================================================
+- Version 3.0.1 [07.02.2013]
+======================================================================================
+1. Feature: [added] new module: Inquiries
+2. Feature: [added] new module: Ratings
+3. Feature: [added] advanced search option
+4. Feature: [added] possibility to define a number of showen sub-categories on home page
+5. Feature: [added] possibility to create Inquiry Form widget 
+6. Feature: [added] possibility to define decimal points for each currency separatelly
+7. Feature: [added] possibility to define hidden menus in Menus and Pages -> Menus Management
+8. Feature: [added] possibility to add watermark to listing images
+
+1. Feature: [improved] updated Sessions class
+2. Feature: [improved] Listings - added possibility to define location and sub-location for each listing
+3. Feature: [improved] minor changes in listing description page layout
+4. Feature: [improved] minor changes in Search class
+5. Feature: [improved] added credit card holder name for On-line Orders
+6. Feature: [improved] Footer Text in Genral -> Visual Settings changed from required to optional field
+
+
+======================================================================================
+- Version 2.3.0 [28.02.2012]
+======================================================================================
+1. Feature: [added] new module: AdSense
+2. Feature: [added] possibility to define a Map Code for listings
+3. Feature: [added] possibility for admin to change customers password: Modules -> Customers Settings -> Admin Changes User Password
+4. Feature: [added] notification for admin when new user registered
+5. Feature: [added] possibility to define a maximum length for displaying listing name in side blocks
+6. Feature: [added] possibility to define whether listing may be viewed by all visitors or just by registered customers
+7. Feature: [added] possibility to create Advertise Plans for listings with different features
+
+1. Feature: [improved] working with Sessions
+2. Feature: [improved] customers registration procedure - added sending emails on admin approval
+3. Feature: [improved] some settings for Customers Modules
+4. Feature: [improved] sending email to customer after approval of listing 
+
+
+======================================================================================
+- Version 2.2.0 [24.01.2012]
+======================================================================================
+1. Feature: [added] possibility to define "Time Zone" via Admin Panel -> General -> Site Settings
+2. Feature: [added] possibility to send email with SMTP mailer
+3. Feature: [added] possibility to subscribe for "newsletter" - mailing list
+4. Feature: [added] possibility to change URL name for system pages via Pages Management -> Edit System Pages
+5. Feature: [added] possibility to upload 3 gallery for listing (3 additional images)
+6. Feature: [added] possibility to display Statistics Info block for listings
+7. Feature: [added] automatic creating of META tags for category/listing pages depending on their info
+8. Feature: [added] possibility to define default/active attributes for countries in Admin Panel
+
+1. Feature: [improved] minor changes in modules settings functionality
+2. Feature: [improved] date/time localization for non-English languages
+3. Feature: [improved] increased max length of page link
+4. Feature: [improved] minor changes in the profiles of customers
+5. Feature: [improved] minor changes in templates XML structure
+6. Feature: [improved] Backup Module functionality
+7. Feature: [improved] Languages class functionality
+8. Feature: [improved] sending reactivation email functionality
+9. Feature: [improved] function for creating permanent links 
+
+
+======================================================================================
+- Version 2.1.4 [03.01.2012]
+======================================================================================
+1. Feature: [added] possibility to export Categories and Listings with CSV format
+2. Feature: [added] new module FAQ
+3. Feature: [added] added possibility to define timezone via General -> Site Settings -> Date & Time Settings
+4. Feature: [added] new feature - "Remember Me" for Customers Module
+5. Feature: [added] new field for Customers profile - "fax number"
+
+1. Feature: [improved] procedure of automatically posting delayed news in RSS
+2. Feature: [improved] minor changes in Admin Panel styles
+3. Feature: [improved] Gallery Module - added name and description for gallery items
+4. Feature: [improved] Vocabulary functionality - added possibility to rewrite all languages with 1 button click
+5. Feature: [improved] possibility to define roles and privileges for admin users
+6. Feature: [improved] News module - added possibility to define news block placement: left or right column
+7. Feature: [improved] Gallery module - added possibility to define count of images/video under album name
+8. Feature: [improved] Gallery module - added possibility to draw gallery albums with {module:album=CODE:closed}
+9. Feature: [improved] minor changes in search functionality
+
+1. Bug: [fixed] with caching of admin and customer pages
+2. Bug: [fixed] removed some un-needed fields on Add Listing page for customers
+3. Bug: [fixed] with maximum allowed value for "priority order" of listings
+4. Bug: [fixed] with illegal mix collation on Listings Management page
+
+
+======================================================================================
+- Version 2.0.1 [24.06.2011]
+======================================================================================
+1. Feature: [added] SEO links for featured and recent listings links
+2. Feature: [added] possibility to search in news
+3. Feature: [added] possibility to search in listings
+4. Feature: [added] possibility of pre=moderation of listings
+
+1. Feature: [improved] cache algorithm
+
+1. Bug: [fixed] with saving status of expanded/closed nodes in Side Category Block
+2. Bug: [fixed] possibility to delete category if it has sub-categories or listings

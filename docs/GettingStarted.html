@@ -1,0 +1,892 @@
+<html>
+<head>
+    <title>Getting Started with ApPHP Business Directory</title>
+    <style>
+        BODY { padding-left:10px; padding-right:10px; }
+        IMG  { border:1px solid #cccccc; }
+    </style>
+</head>
+<body>    
+
+<!-- last update 20.03.2013 -->
+<a name="top"></a>
+<div class="box">
+<h2>Getting Started with ApPHP Business Directory (v2.0.0 or above)</h2>
+<div class="holder">
+<div class="frame-box">
+
+<div class="blocks-holder">
+<div class="block-long">
+	<div class="text-box">
+
+		<ul style="padding-left:1px;list-style:none;font-size:14px;">
+			<li>
+			<span>1.</span> <a href="GettingStarted.html#General_and_site_settings"><span>General and Site Settings.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>1.1</span> <a href="GettingStarted.html#Setting_up_site_parameters"><span>Setting up site parameters.</span></a></LI>
+				<li><span>1.2</span> <a href="GettingStarted.html#Banning"><span>Banning Emails/IP Addresses.</span></a></LI>
+				<li><span>1.3</span> <a href="GettingStarted.html#Countries_management"><span>Countries Management.</span></a></LI>
+				<li><span>1.4</span> <a href="GettingStarted.html#Preview"><span>Preview.</span></a></LI>
+			</ul>
+
+			<span>2.</span> <a href="GettingStarted.html#Accounts_management"><span>Accounts Management.</span></a>
+			<ul style="list-style:none;">
+				<li><span>2.1</span> <a href="GettingStarted.html#My_account"><span>My Account.</span></a></LI>
+				<li><span>2.2</span> <a href="GettingStarted.html#Statistics"><span>Statistics.</span></a></LI>
+				<li><span>2.3</span> <a href="GettingStarted.html#Roles_Privileges"><span>Roles & Privileges.</span></a></LI>
+				<li><span>2.4</span> <a href="GettingStarted.html#Admins_Management"><span>Admins Management.</span></a></LI>
+				<li><span>2.5</span> <a href="GettingStarted.html#Customers_Management"><span>Customers Management.</span></a></LI>
+			</ul>
+
+			<span>3.</span><a href="GettingStarted.html#Listings_Management"><span>Listings Management.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>3.1</span> <a href="GettingStarted.html#Listings_Settings"><span>Listings Settings.</span></a>
+				<li><span>3.2</span> <a href="GettingStarted.html#Locations"><span>Locations.</span></a>
+				<li><span>3.3</span> <a href="GettingStarted.html#Integration"><span>Integration.</span></a>
+				<li><span>3.4</span> <a href="GettingStarted.html#Categories"><span>Categories.</span></a>
+				<li><span>3.5</span> <a href="GettingStarted.html#Listings"><span>Listings.</span></a>
+			</ul>
+
+			<span>4.</span> <a href="GettingStarted.html#Payments"><span>Payments.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>4.1</span> <a href="GettingStarted.html#Currencies"><span>Currencies.</span></a>
+				<li><span>4.2</span> <a href="GettingStarted.html#Advertise_Plans"><span>Advertise Plans.</span></a>
+				<li><span>4.3</span> <a href="GettingStarted.html#Orders"><span>Orders.</span></a>
+				<li><span>4.4</span> <a href="GettingStarted.html#Orders_Statistics"><span>Statistics.</span></a>
+			</ul>
+
+			<span>5.</span> <a href="GettingStarted.html#Menu_Management"><span>Menu Management.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>5.1</span> <a href="GettingStarted.html#Creating_menu_categories"><span>Creating menu categories.</span></a>
+				<li><span>5.2</span> <a href="GettingStarted.html#Editing_menu_categories"><span>Editing menu categories.</span></a>
+			</ul>
+
+			<span>6.</span> <a href="GettingStarted.html#Pages_Management"><span>Pages Management.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>6.1</span> <a href="GettingStarted.html#Editing_homepage"><span>Editing Homepage.</span></a>
+				<li><span>6.2</span> <a href="GettingStarted.html#Creating_new_pages"><span>Creating new pages.</span></a>
+				<li><span>6.3</span> <a href="GettingStarted.html#Editing_pages"><span>Editing pages.</span></a>
+				<li><span>6.4</span> <a href="GettingStarted.html#Editing_system_pages"><span>Editing system pages.</span></a>
+				<li><span>6.5</span> <a href="GettingStarted.html#Remove_Restore_pages"><span>Remove/Restore pages.</span></a>
+			</ul>
+			
+			<span>7.</span> <a href="GettingStarted.html#Languages_Settings"><span>Languages Settings.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>7.1</span> <a href="GettingStarted.html#Inserting_Editing_language"><span>Inserting/Editing language.</span></a>
+				<li><span>7.2</span> <a href="GettingStarted.html#Editing_language_vocabulary"><span>Editing language vocabulary.</span></a>
+			</ul>
+			
+			<span>8.</span> <a href="GettingStarted.html#Mass_Mail_Templates"><span>Mass Mail & Email Templates.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>8.1</span> <a href="GettingStarted.html#Email_Templates"><span>Email Templates.</span></a>
+				<li><span>8.2</span> <a href="GettingStarted.html#Mass_Mail"><span>Mass Mail.</span></a>
+			</ul>
+
+			<span>9.</span> <a href="GettingStarted.html#Modules"><span>Modules.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>9.1</span> <a href="GettingStarted.html#Modules_Management"><span>Modules Management.</span></a></li>
+				<li><span>9.2</span> <a href="GettingStarted.html#Customers_Module"><span>Customers Module.</span></a></li>
+				<li><span>9.3</span> <a href="GettingStarted.html#Inquiries_Module"><span>Inquiries Module.</span></a></li>
+				<li><span>9.4</span> <a href="GettingStarted.html#Payments_Module"><span>Payments Module.</span></a></li>
+				<li><span>9.5</span> <a href="GettingStarted.html#ContactUs_Module"><span>Contact Us Module.</span></a></li>
+				<li><span>9.6</span> <a href="GettingStarted.html#Comments_Module"><span>Comments Module.</span></a></li>
+				<li><span>9.7</span> <a href="GettingStarted.html#Gallery_Module"><span>Gallery Module.</span></a></li>
+				<li><span>9.8</span> <a href="GettingStarted.html#Banners_Module"><span>Banners Module.</span></a></li>
+				<li><span>9.9</span> <a href="GettingStarted.html#News_Module"><span>News Module.</span></a>
+				<li><span>9.10</span> <a href="GettingStarted.html#FAQ_Module"><span>FAQ Module.</span></a>
+				<li><span>9.11</span> <a href="GettingStarted.html#Adsense_module"><span>AdSense module.</span></a>							
+				<li><span>9.12</span> <a href="GettingStarted.html#Backup_and_Restore_Module"><span>Backup & Restore Module.</span></a>
+			</ul>    		
+
+			<span>10.</span> <a href="GettingStarted.html#Customer_Accounts"><span>Customer Accounts.</span></a> 
+			<ul style="list-style:none;">
+				<li><span>10.1</span> <a href="GettingStarted.html#Customer_Registration_Login"><span>Registrations & Login.</span></a>
+					<ul style="list-style:none;">
+					  <li><span>10.1.1</span> <a href="GettingStarted.html#Customer_Registration"><span>Customer Registration.</span></a></li>
+					  <li><span>10.1.2</span> <a href="GettingStarted.html#Customer_Login"><span>Customer Login.</span></a></li>
+					</ul>
+				</li>
+				<li><span>10.2</span> <a href="GettingStarted.html#Customer_Control_Panel"><span>Customer Control Panel.</span></a>
+					<ul style="list-style:none;">
+					  <li><span>10.2.1</span> <a href="GettingStarted.html#Customer_Dashboard"><span>Dashboard.</span></a></li>
+					  <li><span>10.2.2</span> <a href="GettingStarted.html#Customer_Edit_Account"><span>Edit Account.</span></a></li>
+					  <li><span>10.2.3</span> <a href="GettingStarted.html#Customer_Listings"><span>Listings.</span></a></li>
+                      <li><span>10.2.4</span> <a href="GettingStarted.html#Customer_Advertise"><span>Advertise.</span></a></li>
+                      <li><span>10.2.5</span> <a href="GettingStarted.html#Customer_Orders"><span>Orders.</span></a></li>
+                      <li><span>10.2.6</span> <a href="GettingStarted.html#Customer_Inquiries"><span>Inquiries.</span></a></li>                      
+					</ul>
+				</li>
+			</ul> 			
+			</li>
+		</ul>
+		<br />
+
+        <a name="General_and_site_settings"></a>
+        <h3 class="sub-title"><b>1. General and Site Settings.</b></h3><br>
+        This section describes how to manage a general settings of your site.<br>
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Setting_up_site_parameters"></a>
+			<h3><b>1.1 Setting up site parameters.</b></h3>
+			<a href="images/getting-started/settings.png" rel="lytebox[section_1_1]" title="Settings"><img class="opacity_img" src="images/getting-started/settings_thumb.png" width="120" alt="" title="Settings" border="0" /></a>
+			<hr>
+				Select Settings from General Menu. On this page you can easy change/manage important parameters of your site.
+				You will see there 8 Tabs: General Settings, Visual Settings, Datetime & Price Settings, Email Settings, Templates & Styles, Server Info, Site Info and Cron Jobs
+			    <br><br>			
+			
+				On General Settings Tab you can change:
+				<ul>
+					<li>Site Offline</li>
+					<li>Offline Message</li>
+					<li>SEO URLs</li>
+					<li>WYSIWYG Editor</li>
+					<li>RSS Feed Type </li>
+					<li>Caching / Caching lifetime - caching for pages</li>
+				</ul>
+				
+				On Visual Settings Tab you can change: (change value in dropdown box to make changes for appropriate language).
+				You may also apply changes in META tags to all pages. 
+				<ul>
+					<li>Header Text</li>
+					<li>Slogan</li>
+					<li>Footer Text</li>
+					<li>Tag &lt;TITLE&gt;</li>
+					<li>Meta Tag &lt;KEYWORDS&gt;</li>
+					<li>Meta &lt;DESCRIPTION&gt;</li>
+				</ul>
+				
+				On Datetime & Price Settings Tab you can change:
+				<ul>
+					<li>Date Format</li>
+					<li>Time Zone</li>
+					<li>Price Format</li>
+				</ul>
+				
+				On Email Settings Tab you can change:
+				<ul>
+					<li>Mailer Type</li>
+					<li>Email Address</li>
+					<li>SMTP parameters</li>
+				</ul>				
+	
+				On Templates & Styles Tab you can change:
+				<ul>
+					<li>Template </li>
+				</ul>
+	
+				On Server Info Tab you can view the important info about your server:
+				<ul>
+					<li>PHP and MySQL versions</li>
+					<li>Server parameters</li>
+					<li>etc</li>
+				</ul>
+	
+				On Site Info Tab you can view the ranks of your site (click on update button to refresh them):
+				<ul>
+					<li>Google and Alexa</li>
+				</ul>
+
+				On Cron Jobs Tab you can define a type of cron jobs (or stop it):
+				<ul>
+					<li>Batch</li>
+					<li>Non-batch</li>
+				</ul>
+			<p><br /></p>        
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Banning"></a>
+			<h3><b>1.2 Banning Emails/IP Addresses.</b></h3>			
+			<a href="images/getting-started/banning.png" rel="lytebox[section_1_2]" title="Banning"><img class="opacity_img" src="images/getting-started/banning_thumb.png" width="120" alt="" title="Banning" border="0" /></a>
+			<hr>			
+				Select a <b>Ban List</b> from the <b>General Menu</b>. On this page you can easy add/change or
+				remove banned emails or IP addresses.			
+			<p><br /></p>		
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Countries_management"></a>
+			<h3><b>1.3 Countries Management.</b></h3>
+			<hr>
+				Select <b>Countries</b> from the <b>General Menu</b>. On this page you can manage a list of countries
+				with a standard MicroGrid page. You can add, edit or delete existing country. Also you may change a
+			    priority order, activate it etc.			
+			<p><br /></p>		
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Preview"></a>
+			<h3><b>1.4 Preview.</b></h3>
+			<hr>
+				The Preview feature allows admin to view the site without logging out. To view the site's Front-End
+				simply click on <b>General</b> -> <b>Preview</b>. If you want back to Administrator Panel click the 
+				<b>[Back to Admin Panel]</b> link that will appear instead of site's slogan text.
+			<p><br /></p>
+            
+
+        <a name="Accounts_management"></a>
+        <h3 class="sub-title"><b>2. Accounts Management.</b></h3><br>
+        This section describes how to manage site accounts.        
+        <p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="My_account"></a>
+            <h3><b>2.1 My Account.</b></h3>
+			<a href="images/getting-started/my_account.png" rel="lytebox[section_2_1]" title="My Account"><img class="opacity_img" src="images/getting-started/my_account_thumb.png" width="120" alt="" title="My Account" border="0" /></a>
+			<hr>
+                Log into Admin Panel, using administrator username and password. Then select <b>My Account</b>
+                from the <b>Accounts Menu</b> or from the top links of the page. You will see a page, where you can
+				change your email, password and preferred language. To change data simply enter new values and then
+				click <b>Change</b> button.
+			<p><br /></p>		
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Statistics"></a>
+			<h3><b>2.2 Statistics.</b></h3>
+			<hr>
+				Select <b>Statistics</b> from the <b>General Menu</b>. On this page you can view a general statistics of your site:
+				<ul>
+					<li>Customers (Map Overlay)</li>
+					<li>Customers (Registrations)</li>
+					<li>Customers (Logins)</li>
+					<li>etc</li>
+				</ul>			
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Roles_Privileges"></a>
+            <h3><b>2.3 Roles & Privileges.</b></h3>
+			<hr>
+                Select <b>Roles & Privileges</b> from the <b>Accounts Menu</b>. You will see a page, where existing site roles are
+				defined: Owner, Main Admin and Simple Admin. You may specify the privileges for each role by clicking a <b>[ Privileges ]</b>
+				link. Privileges for Site Owner cannot be changed by anyone. Generally, the Main Admin is the role that has all
+				rights, like a Site Owner (but may be deleted by the Owner) and a Simple Admin type is the type which has
+				reduced rights. 
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Admins_Management"></a>
+            <h3><b>2.4 Admins Management.</b></h3>
+			<hr>
+                Select <b>Admins</b> from <b>Accounts</b> -> <b>Admins Management</b> menu. On this page you can manage all site
+				administrator accounts. You may add, edit or delete existing accounts. When you create a new admin account you have to
+				define an account type(role): Simple Admin or Main Admin. The privileges for selected role will be applied
+				automatically for created account.
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Customers_Management"></a>
+            <h3><b>2.5 Customers Management.</b></h3>
+			<hr>
+				<u>Customer Groups:</u><br>
+                Select <b>Customer Groups</b> from the <b>Accounts Menu</b>. On this page you can add, edit or delete existing groups of
+				customers. You have to enter group name and description (optional). Customers can be assigned to the one of existing
+				groups.
+				<br /><br />
+				
+				<u>Customers:</u><br />
+                Select <b>Customers</b> from the <b>Accounts Menu</b>. You will see the Customers Management page. On this page you can add,
+				edit or delete existing accounts of customers. 
+			<p><br /><br /></p>		
+
+        
+        <a name="Listings_Management"></a>
+        <h3 class="sub-title"><b>3. Listings Management.</b></h3><br>
+        This section describes how to manage listings and listing categories.<br>
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Listings_Settings"></a>
+            <h3><b>3.1 Listings Settings.</b></h3>
+			<a href="images/getting-started/listings_management.png" rel="lytebox[section_3]" title="Listings Management"><img class="opacity_img" src="images/getting-started/listings_management_thumb.png" width="120" alt="" title="Listings Management" border="0" /></a>
+			<hr>
+				<b>Listings Settings.</b><br />
+				This page allows you to define listing settings, like:<br />
+                - Specifies whether to show Categories side block or not<br />
+                - Specifies whether to show Categories home block or not<br />
+                - Specifies whether to show categories images or not<br />
+                - Specifies the number of columns in the table of categories<br />
+                - Specifies whether to allow pre-moderation for listings<br />
+                - Specifies whether to show Featured Listings side block or no<br />
+                - Specifies whether to show Recent Listings side block or no<br />
+                - Specifies a maximum number of listings that could be displayed on page<br />
+                - Specifies whether to show Directory Statistics side block or no<br />
+                - Defines a length of display listing name in a side block (in chars)<br />
+                - Specifies whether to show expired listings until Cron Job close them or not<br />
+                - Specifies whether to allow Multiple Categories for Listings: 1 - one category, 2 - two categories etc.<br />
+                - Specifies a number of sub-categories for each category that could be displayed on home page<br />
+                - Specifies whether to add watermark to listing images or not<br />
+                - Watermark text that will be added to images
+                <br />
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Locations"></a>
+            <h3><b>3.2 Locations.</b></h3>
+			<hr>
+                On this page administrator can define locations and sub-locations that will be used for listings.
+                Each listing may select location and sub-location it related to. 
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Integration"></a>
+            <h3><b>3.3 Integration.</b></h3>
+			<hr>
+                Integrated Inquiry Widget allows you to integrate Inquiry Form engine with another existing website.
+                To do it open <b>Listings Management</b> -> <b>Settings</b> -> <b>Integration</b> page and copy the
+                generated code to the appropriate place of your website.
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Categories"></a>
+            <h3><b>3.4 Categories.</b></h3>
+			<hr>
+                This page allows you to manage listing categories. You may add/edit or delete category, change
+                category display order etc. You may also translate category into all languages, installed on
+                your site. To create new sub-directory click <b>[ Sub-Categories ]</b> link and then add a new
+				sub-category.
+			<p><br /></p>		
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Listings"></a>
+            <h3><b>3.5 Listings.</b></h3>
+			<hr>
+                Listings page allows you to manage your listings: add/edit or delete them. When you add a new listing
+                you have to define related category, upload images, define listing name etc. You may also define
+                display order for the listing and translate description into other languages, installed on your site.
+			<p><br /><br /></p>		
+            
+
+        <a name="Payments"></a>
+        <h3 class="sub-title"><b>4. Payments.</b></h3><br>
+        This section describes how to work with Payments Module.<br>
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Currencies"></a>
+            <h3><b>4.1 Currencies.</b></h3>
+			<a href="images/getting-started/advertise_plans.png" rel="lytebox[section_4]" title="Advertise Plans"><img class="opacity_img" src="images/getting-started/advertise_plans_thumb.png" width="120" alt="" title="Advertise Plans" border="0" /></a>
+			<hr>
+            	Select <b>Currencies</b> from the <b>Payments</b> menu. You will see a <b>Currencies Management</b> page. 
+				This page allows you to manage currencies, used on your site for purchasing Advertise Plans. You can
+                add/edit or delete existing currencies. One currency may be defined as a "default", that means it will
+                be used as a default currency for your site. You have define a rate of each currency relatively to
+                the "default" one.				
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Advertise_Plans"></a>
+            <h3><b>4.2 Advertise Plans.</b></h3>
+			<hr>         
+				Select <b>Advertise Plans</b> from the <b>Payments</b> menu. On this page you can manage Advertise Plans,
+                change and edit plans settings. One plan may be defined as a "default", that means it will be used as a
+                default plan for your site. This plan will be applied automatically to customer's account after succesful
+                registration.			
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Orders"></a>
+            <h3><b>4.3 Orders.</b></h3>
+			<hr>
+				<b>Orders</b> page gives you possibility to manage existing orders, placed by admin or by customers.
+				On this page you can view orders description, change orders status and filter them by date, customer name
+				etc. You may also send invoices and print selected orders.
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Orders_Statistics"></a>
+            <h3><b>4.4 Statistics.</b></h3>
+			<hr>
+				<b>Statistics</b> allows you to track amount of orders groped by months, learn how your customers
+				are distributed by countries and get some other useful information.
+			<p><br /><br /></p>
+
+        
+        <a name="Menu_Management"></a>
+        <h3 class="sub-title"><b>5. Menu Management.</b></h3><br>
+        This section describes how to manage menu categories.<br>
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Creating_menu_categories"></a>
+			<h3><b>5.1 Creating menu categories.</b></h3>
+			<a href="images/getting-started/menu_management.png" rel="lytebox[section_5]" title="Menu Management"><img class="opacity_img" src="images/getting-started/menu_management_thumb.png" width="120" alt="" title="Menu Management" border="0" /></a>
+			<hr>
+				Click <b>Add New Menu</b> from the <b>Menus Management</b>. In the textbox enter a proper name for menu category and
+				select a placement (left, top, right or bottom - depending on whether your template supports it) from dropdown list,
+				also choose a language. You may also define access level for the menu: All(public) or only Registered users.
+				Press <b>Create</b> button to finish adding new menu category process. Menu categories will appear sorted by order from
+				smallest to highest (last added category automatically gets the lowest priority).             
+			<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_menu_categories"></a>
+			<h3><b>5.2 Editing menu categories.</b></h3>
+			<hr>
+				To edit existing menu category - select <b>Edit Menus</b> from the <b>Menus Management</b> page and then click an 
+				appropriate category from the list. Perform all changes you need and then press on Save Changes button. You may
+				also change a display order of each menu category.
+				<br /><br />
+				If you want to delete existing menu category - go to <b>Edit Menus</b> page, then select appropriate menu
+				category from the list and click a <b>Delete</b> link at the right side.
+			<p><br /></p>
+        
+        
+        <a name="Pages_Management"></a>
+        <h3 class="sub-title"><b>6. Pages Management.</b></h3><br>
+        This section describes how to manage pages.        
+		<p></p>
+        
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_homepage"></a>
+			<h3><b>6.1 Editing Homepage.</b></h3>
+			<hr>
+				To edit <b>Homepage</b> - select <b>Edit Home Page</b> from the <b>Pages Management</b> menu.
+				Perform all changes you need and then press <b>Save Changes</b> button. You may also define meta
+				tags for your Homepage, like: title, description, keywords and also some other settings.
+				<br /><br />
+				If you need to insert/upload images - click <b>Insert Image</b> icon from the toolbar of
+				WYSIWYG editor, then upload/select your image and press <b>Submit</b> button.
+			<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Creating_new_pages"></a>
+			<h3><b>6.2 Creating new pages.</b></h3>
+			<hr>
+				Click <b>Add New Page</b> from the <b>Pages Management</b> menu. In the <b>Page Header</b> textbox enter
+				a proper name for this page. Choose appropriate value from dropdown list to connect this page to some
+				menu and enter a text in <b>Page Text</b> textarea. You may also define is the page will be an article or
+				just a link, allow/block comments, define access level, meta tags, show or not show this page in search results,
+				publish or just save changes without publishing etc. Click <b>Create</b> button to finish the process.
+				<br /><br />
+				If you need to insert/upload images - click <b>Insert Image</b> icon from the toolbar of
+				WYSIWYG editor, then upload/select your image and press <b>Submit</b> button.
+			<p><br /><br /></p>
+            
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_pages"></a>
+			<h3><b>6.3 Editing pages.</b></h3>
+			<hr>
+				To edit existing page - click <b>Edit Pages</b> from the <b>Pages Management</b> menu, then select
+				an appropriate page from the list. Perform all changes you need and then press <b>Save Changes</b>
+				button. 
+				<br /><br />
+				If you need to insert/upload images - click <b>Insert Image</b> icon from the toolbar of
+				WYSIWYG editor, then upload/select your image and press <b>Submit</b> button.
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_system_pages"></a>
+			<h3><b>6.4 Editing system pages.</b></h3>
+			<hr>
+				To edit system pages - click <b>Edit System Pages</b> from the <b>Pages Management</b> menu, then select
+				an appropriate page from the list. Perform all changes you need and then press <b>Save Changes</b>
+				button. 
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Remove_Restore_pages"></a>
+			<h3><b>6.5 Remove/Restore pages.</b></h3>
+			<hr>
+				To remove existing page - click <b>Edit Pages</b> from the <b>Pages Management</b> menu, then select an 
+				appropriate page from the list and click <b>Remove</b> link from the right side. This page will be
+				placed in the Trash.
+				<br /><br />
+				To restore removed page click <b>Trash</b> from the <b>Pages Management</b>, find an appropriate page and click 
+				<b>Restore</b> link. The page will be restored. If you want to permanently delete this page, click <b>Delete</b>
+				link.
+			<p><br /><br /></p>
+
+            
+
+        <a name="Languages_Settings"></a>
+        <h3 class="sub-title"><b>7. Languages Settings.</b></h3><br>
+        This section describes how to manage languages and define language settings.<br>
+		<p></p>		
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Inserting_Editing_language"></a>
+			<h3><b>7.1 Inserting/Editing Language.</b></h3>
+			<a href="images/getting-started/vocabulary.png" rel="lytebox[section_7_1]" title="Vocabulary"><img class="opacity_img" src="images/getting-started/vocabulary_thumb.png" width="120" alt="" title="Vocabulary" border="0" /></a>
+			<hr>
+				Click <b>Languages</b> from the <b>Languages Settings</b> menu. On this page you will see a list of existing
+				languages. You can add new language or edit existing, change display order etc. When you add or edit
+				existing language you need to insert a name of the language, abbreviation, text direction, icon image and
+				some other data. When all needed data is entered - press <b>Create/Update</b> button to save it. You have to
+				define one language to be a default language of the site.
+				<br /><br />
+				When you add new language the system creates for it a copy of vocabulary (a list of predefined constants,
+				used by the system) from the default language and you will need to translate them into the new language.
+			<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Editing_language_vocabulary"></a>
+			<h3><b>7.2 Editing language vocabulary.</b></h3>
+			<hr>
+				Click <b>Vocabulary</b> from the <b>Languages Settings</b> menu. On this page you can edit the vocabulary
+				constants of existing languages. To change the text of constant, select an appropriate language from dropdown list,
+				then click <b>[Edit]</b> link and enter new text in a textarea. You may use Google automatic translation to help
+				yourself in this work. To do this simply past in textarea default language text and then click on
+				Translate via Google button (works for Google paid account only).
+				<br /><br />
+				You may also update your vocabulary by uploading a vocabulary file (if you created such file before or have it
+				from the previous instalaltion). To do this simply click <b>[Upload from File]</b> link, then select vocabulary
+				file, language to update and press on upload and Process button.
+			<p><br /><br /></p>
+
+
+        <a name="Mass_Mail_Templates"></a>
+        <h3 class="sub-title"><b>8. Mass Mail & Email Templates.</b></h3><br>
+        This section describes how to work with Mass Mail & Email Templates.        
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Email_Templates"></a>
+			<h3><b>8.1 Email Templates.</b></h3>
+			<hr>
+				To edit <b>Email Templates</b> go to <b>Mass Mail & Templates</b> -> <b>Email Templates</b>.
+				On this page you can see a list of existing email templates. Email Templates are managed with a
+				standard MicroGrid page. You can add, delete or edit existing records. There are some templates
+				that signed as "system" templates, that cannot be deleted, because they are used by the system.				
+			<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Mass_Mail"></a>
+			<h3><b>8.2 Mass Mail.</b></h3>
+			<hr>
+				With the Mass Mail feature, it's possible to create and send powerful mass mail messages to registered
+				customers and/or admins. To do this go to <b>Mass Mail & Templates</b> -> <b>Mass Mail</b>. On this page
+				you can select a template, define targeting group of receivers (or send a test email) and prepare the text
+				of email message. There are some pre-defined constants that may be used in the text of email and will be
+				replaced with appropriate values before sending the email. For example: {YEAR} will be replaced with the
+				current year in YYYY format, {WEB SITE} with web site URL etc.
+			<p><br /><br /></p>
+	
+	
+        <a name="Modules"></a>
+        <h3 class="sub-title"><b>9. Modules.</b></h3><br>
+        This section describes how to work with embedded modules.        
+		<p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Modules_Management"></a>
+			<h3><b>9.1 Modules Management.</b></h3>
+			<a href="images/getting-started/modules_management.png" rel="lytebox[section_9_1]" title="Modules Management"><img class="opacity_img" src="images/getting-started/modules_management_thumb.png" width="120" alt="" title="Modules Management" border="0" /></a>
+			<hr>
+				Select Modules Management from the Modules Menu. On this page you can easy install/uninstall existing 
+				modules, for example: News, Backup etc. To do this click on [Edit], perform changes and then press Update button.
+			<p><br /></p>        
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Customers_Module"></a>
+			<h3><b>9.2 Customers Module.</b></h3>
+			<hr>
+				This section describes how to work with the Customers Module.<br /><br />
+				<b>Customers Module settings.</b><br />
+				This page allows you to define Customers settings, like:<br />
+				- Specifies whether to allow adding new users by Admin<br />
+				- Defines whether confirmation (which type of) is required for registration<br />
+				- Specifies whether to allow customers to login to the site<br />
+				- Specifies whether to allow customers to register<br />
+				- Specifies whether to allow image verification (captcha) on customer registration page<br />
+				- Specifies whether to allow customers to restore their passwords<br />
+				- Specifies whether to allow Remember Me feature<br />
+				- Specifies whether to alert admin on new user registration<br />
+				- Specifies whether to allow changing user password by Admin<br />				
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Inquiries_Module"></a>
+			<h3><b>9.3 Inquiries Module.</b></h3>
+			<a href="images/getting-started/inquiry_integration.png" rel="lytebox[section_9_3]" title="Inquiry Module Integration"><img class="opacity_img" src="images/getting-started/inquiry_integration_thumb.png" width="120" alt="" title="Inquiry Module Integration" border="0" /></a>
+			<hr>
+				This section describes how to work with the Inquiries Module.
+                The Enquiries Mmodule allows visitors on your site to submit requests to businesses in specific
+                category or directly to obtain from them the necessary information, get offers etc.
+				<br /><br />
+                
+                <b>Inquiries module settings.</b><br />
+                This page allows you to define Inquiries settings, like:<br />
+                - Specifies a maximum number of replies that visitor can retrieve for each inquiry<br />
+                - Specifies whether to allow visitors to send direct inquiries to businesses<br />
+                - Defines whether to show Last Inquiries side block or not<br />
+                - The maximum number of days to keep the inquiries history
+                <br /><br />
+
+                <b>Inquiries Management.</b><br />
+                On this page administrator can manage inquiries: view, activate, edit or delete its.
+                
+            <p><br /></p>    
+
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Payments_Module"></a>
+			<h3><b>9.4 Payments Module.</b></h3>
+			<hr>
+				This section describes how to work with the Payments Module.<br /><br />
+				This page allows you to define Booking Module settings, like:<br />
+				- Enable/Disable 'On-line Order' payment type<br />
+				- Enable/Disable collecting of credit card info for 'On-line Orders'<br />				
+				- Enable/Disable 'PayPal' payment type<br />
+				- PayPal (business) email <br />				
+				- Enable/Disable '2CO' payment type<br />
+				- Specifies 2CO Vendor ID<br />
+				- Enable/Disable 'Authorize.Net' payment type<br />
+				- Specifies Authorize.Net Login ID and Transaction Key<br />				
+				- Default payment processing system <br />
+				- Specifies default VAT value for order (in %)<br />
+				- Enable/Disable sending a copy of order to admin<br />				
+				- Specifies mode for Booking Module: DEMO/REAL<br />
+				- Defines a maximum number of allowed orders (not completed) per customer<br />				
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="ContactUs_Module"></a>
+			<h3><b>9.5 Contact Us Module.</b></h3>
+			<hr>
+				This section describes how to work with the Contact Us Module.<br /><br />
+				<b>Contact Us Module settings.</b><br />
+				This page allows you to define Contact Us settings, like:<br />
+				- The email address, that will be used to get sent information<br />
+				- The keyword that will be replaced with Contact Us form (copy and paste it into the page)<br />
+				- Specifies whether to allow time delay between sending emails.<br />
+				- Defines a length of delay between emails in seconds.<br /> 
+				- Specifies whether to allow image verification<br /> 				
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Comments_Module"></a>
+			<h3><b>9.6 Comments Module.</b></h3>
+			<hr>
+				This section describes how to work with the Comments Module.<br /><br />
+				<b>Comments module settings.</b><br />
+				This page allows you to define Comments settings, like:<br />
+				- Specifies whether to allow comments to articles<br />
+				- Type of users, who can post comments<br />
+				- The maximal length of a comment<br />
+				- Specifies whether to allow image verification (captcha)<br />
+				- How much comments will be shown on one page<br />
+				- Specifies whether to allow pre-moderation for comments<br />
+				- The maximum pending time for deleting of comment in minutes.
+				<br /><br />
+                
+				<b>Comments Management page.</b><br />
+				On this page administrator can manage comments: view, approve, deny or delete them.
+			<p><br /></p>
+	
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Gallery_Module"></a>
+			<h3><b>9.7 Gallery Module.</b></h3>
+			<hr>
+				This section describes how to work with the Gallery Module.<br /><br />
+				<b>Gallery Settings.</b><br />
+				This page allows you to define Gallery settings, like:<br />
+				- Allowed types of Image Gallery<br />
+				- Allowed types of Video Gallery<br />
+				- The keyword that will be replaced with gallery (copy and paste it into the page)<br />
+				- Album icon width<br />
+				- Album icon height<br />
+				- Number of album icons per line<br />
+				- The keyword that will be replaced with a certain album images (copy and paste it into the page)<br />
+				- Defines a wrapper type for gallery<br />
+				- Specifies whether to show count of images/video under album name<br />
+				<br />
+	
+				<b>Gallery Management.</b><br />
+				The Gallery module allows you to create and manage gallery albums on your site.
+				To do this go to <b>Modules</b> -> <b>Gallery</b> -> <b>Gallery Management</b>. On this page you will
+				see a list of existing albums. Albums are managed with a standard MicroGrid page.
+				You can add, delete or edit albums info, define a type of album: images or video etc.
+				To upload/delete images from the certain album - click <b>Upload</b> link. You will be
+				redirected to the Album Items pages, where you could add (upload) and manage album items.
+				<br /><br />
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Banners_Module"></a>
+			<h3><b>9.8 Banners Module.</b></h3>
+			<hr>
+				This section describes how to work with the Banners Module.<br /><br />
+				<b>Banners Settings.</b><br />
+				This page allows you to define Banners settings, like:<br />
+				- Whether banners module is active or not<br />
+				- Type of banner rotation<br />
+				- Banners rotation delay in seconds<br />
+                - Specifies whether to allow using of HTML in slideshow captions or not	
+				<br /><br />
+	
+				<b>Banners Management.</b><br />
+				The Banners module allows you to create (upload) and manage banners on your site.
+				To do this go to <b>Modules</b> -> <b>Banners</b> -> <b>Banners Management</b>. On this page you will
+				see a list of existing banners, that are managed with a standard MicroGrid page.
+				You can add, edit or delete banners, upload banner images etc. 
+				<br /><br />			
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="News_Module"></a>
+			<h3><b>9.9 News Module.</b></h3>
+			<a href="images/getting-started/news_module.png" rel="lytebox[section_9_7]" title="News Module"><img class="opacity_img" src="images/getting-started/news_module_thumb.png" width="120" alt="" title="News Module" border="0" /></a>
+			<hr>
+				This section describes how to work with the News Module.<br /><br />
+				<b>News Settings.</b><br />
+				This page allows you to define News settings, like:<br />
+				- How many news will be shown in news block<br />
+				- Length of news header in block<br />
+				- Using of RSS channel for news<br />
+				- Defines whether to show News side block or not<br />
+				- Defines whether to show Newsletter Subscription block or not
+				<br /><br />
+	
+				<b>Creation and Management.</b><br />
+				The News module allows you to create and manage news on your site.
+				To do this go to <b>Modules</b> -> <b>News</b> -> <b>News Management</b>. On this page you will
+				see a list of previously added news. News are managed with a standard
+				MicroGrid page. You can add, edit or delete news records.
+				<br /><br />
+				There are two type of news that may be created: news or events.
+				If you create event, visitors could register to this event via online form.
+				All registered users may be viewed via <b>Modules</b> -> <b>News</b> -> <b>News Management</b> -> events()				
+				<br /><br />
+				
+				<b>Subscription Management (Newsletter Subscription).</b><br />
+				The News module allows you to create and manage Mailing Lists on your site. You may place
+				a Subscription block on the Front-End of your site and allow visitors to subscribe for
+				news or manually add/remove subscribers via <b>Modules</b> -> <b>News</b> -> <b>Subscription Management</b> page.
+                To send newsletter for subscribers go to <b>Mass Mail</b> -> <b>Templates</b> -> <b>Mass Mail</b> page, then select
+				from Email Address dropdown box "Newsletter Subscribers", prepare the newsletter text and click
+				<b>Send</b> button.
+			<p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="FAQ_Module"></a>
+			<h3><b>9.10 FAQ Module.</b></h3>
+			<hr>
+				<b>FAQ Settings.</b><br />
+				This page allows you to define Banners settings, like:<br />
+				- Whether FAQ module is active or not<br />
+				<br />
+				
+				<b>FAQ Management.</b><br />
+				The FAQ module allows you to create FAQ categories knowladge base. To do this go to
+				<b>Modules</b> -> <b>FAQ</b> -> <b>FAQ Management</b>. On this page you will see a list of existing FAQ categories.
+				You can add, edit or delete categories records. Once FAQ category is created, you may add
+				category questions and answers. To do this simply click on "Question" link of appropriate category
+				and on the new page create/edit the pairs: question/answer.
+				<br /><br />			
+			<p><br /></p>
+
+            <div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+            <a name="Adsense_module"></a>
+            <h3><b>9.11 Adsense Module.</b></h3>
+			<hr>
+                Adsense module allows you to show advertisements directly in your blog. <br />
+                You may enter a code for vertical and/or horizontal banners and also define some other
+                important parameters.
+                <br /><br />
+                <b>Adsense module settings.</b><br />
+                - Code for vertical banner<br />
+                - Code for horizontal banner<br />
+                - Which part of AdSense blocks is active: horizontal, vertical, both or none<br />
+            <p><br /></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Backup_and_Restore_Module"></a>
+			<h3><b>9.12 Backup & Restore Module.</b></h3>
+			<a href="images/getting-started/backup_module.png" rel="lytebox[section_9_8]" title="Backup Module"><img class="opacity_img" src="images/getting-started/backup_module_thumb.png" width="120" alt="" title="Backup Module" border="0" /></a>
+			<hr>
+				<b>Creating a backup.</b><br />
+				This script allows you easily create backup of your database. To do this go
+				to <b>Modules</b> -> <b>Backup & Restore</b> -> <b>Backup Installation</b>. On this page you can see a list
+				of existing backups. If you want to add new backup press Backup button.
+				After the backup is complete it will appear in the list below.        
+				<br /><br />
+	
+				<b>Restoring from backup.</b><br />
+				To restore database from existing backup go to <b>Modules</b> -> <b>Backup & Restore</b> -> <b>Backup Restore</b>
+				page and look on the list of existing backups. Select a backup you want to restore and click
+				on Restore link at the right side. After backup restore is complete, refresh the site or re-login.        
+				<br />            
+			<p><br /></p>
+
+            
+        <a name="Customer_Accounts"></a>
+        <h3 class="sub-title">10. Customer Accounts.</h3><br>
+		This section describes the main features of the customer accounts, registration and login process and working with a customer control panel.        
+        <p></p>
+
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Customer_Registration_Login"></a>
+			<h3><b>10.1 Registration & Login.</b></h3>
+            <hr>
+			
+				<a name="Customer_Registration"></a>
+				<h3>10.1.1 Customer Registration.</h3>
+				This takes just a couple of minutes. To create/register a customer account type in your browser
+				<b>http://{your site}/index.php?customer=create_account</b>. Enter a name, an email address, choose a password and
+				enter all other required information. After your registration is confirmed (depends on the systems settings:
+				auto-approval, email confirmation or admin approval) you could log into customer control panel.
+
+ 				<a name="Customer_Login"></a>
+				<h3>10.1.2 Customer Login.</h3>
+				To login as a customer, type in your browser <b>http://{your site}/index.php?customer=login</b>. Enter your username,
+				password and click Login button. You may also login from the Authentication block placed at the side column.
+				<br><br>
+				Automatic sign-in. If you don't want to enter your username and password every time you want to access your account,
+				check the box next to "Remember Me" near the Password field on the login page. Unless you delete your browser cookies,
+				you won't be asked for your password for 14 days.
+			<p><br /></p>
+			
+			<div style="FLOAT: right; MARGIN-LEFT: 5px">[<a href="GettingStarted.html#top">top</a>]</div>
+			<a name="Customer_Control_Panel"></a>
+			<h3><b>10.2 Customer Control Panel.</b></h3>
+            <hr>
+
+				<a name="Customer_Dashboard"></a>
+				<h3>10.2.1 Dashboard.</h3>				
+				Customer's Dashboard allows customer to view account status, manage account settings, personal information,
+				orders etc.
+				
+				<a name="Customer_Edit_Account"></a>
+				<h3>10.2.2 Edit Account.</h3>				
+				This page allows customer to edit a basic account information: Personal Information, Billing Address, Contact Information,
+				Account Details and other. On this page customer can change an account password. The link to removing account
+				is also placed on this page at the bottom.
+
+				<a name="Customer_Listings"></a>
+				<h3>10.2.3 Listings.</h3>
+                On this page you may create new and manage existing listings. You may edit your listing's property, assign it to selected
+                categories, change other information or delete them. 
+                
+				<a name="Customer_Advertise"></a>
+				<h3>10.2.4 Advertise.</h3>
+                On Advertise page customer may order appropriate Advertise Plan, pay for it and purchase listings for advertising
+                campaign. Each plan has it's own features, described on this page, like: duration, allowed count of listings, number
+                of categories etc. After succesful payment the order will apear on My Orders page and on My Listings page will be written
+                a number of available listings for advertising.
+                
+				<a name="Customer_Orders"></a>
+				<h3>10.2.5 Orders.</h3>
+                On the Customer Orders page you may see a list of orders for current customer. For each order in the list there is
+                a table row with the order number, date, status and total sum. Also, a link to the Order Details page is available in
+                the right column.                                
+                
+				<a name="Customer_Inquiries"></a>
+				<h3>10.2.6 Inquiries.</h3>
+                On the Inquiries page the customer may review inquiries sent by site visitors, read them and reply them. Each reply
+                will be sent to the email of inquiry sender, so customer could describe in the answer all the important information that
+                was required by sender in initial request.
+				
+			<p><br /></p>
+            
+	</div>
+</div>
+</div>
+
+<div class="frame-box-holder"></div>		
+		
+</div>
+</div>
+</div>
+
+        
+</body>
+</html>

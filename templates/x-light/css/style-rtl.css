@@ -1,0 +1,82 @@
+/* --- BANNERS ------------------------- */
+DIV.slideshow-caption { text-align:right; }
+
+/* --- HEADER ------------------------- */
+#wrapper   { background-position:top right; }
+
+#header  { background-image:url(../images/top_img_rtl.png); background-position:top right; }
+#header DIV.nav_language { float:right; text-align:right; }
+#header DIV.site_name_link { float:right; padding-right:15px; }
+#header DIV.nav_language { float:right; text-align:right; margin:37px 12px 10px 12px; }
+
+#footer { background-position:top right; }
+
+/* --- RSS ------------------------- */
+.rss { float:left; margin:-142px 0px 0px 3px; display:inline; }
+
+/* --- LOGO ------------------------- */
+DIV.slogan { font-family:Tahoma, sans-serif; font-size:12px; color:#676A4F; width:400px; height:40px; margin:150px 468px 0 0; }
+
+#menu  { float:right; }
+
+UL.nav_top 	     { margin-right:90px; }
+UL.nav_top LI 	 { padding:0px; float:right; }
+
+/* --- SEARCH ------------------------- */
+.header_search   { float:left; padding:39px 0px 0px 38px; direction:rtl; }
+
+/* --- LISTINGS ---------------------- */
+DIV.listing_images_wrapper  { float:left; }
+IMG.listing_image           { padding:7px 6px 7px 0px; }
+IMG.listing_icon            { margin:2px 4px 6px 1px; }
+DIV.listing_info .links { text-align:right; }
+DIV.listing_info .links .published { float:left; }
+
+DIV.listing_description { padding:10px 10px 0 0; }
+DIV.listing_description .wide_block { float:right; }
+DIV.listing_description .wide_block UL.l_items LI { text-align:right; }
+DIV.listing_description .wide_block UL.l_items LI SPAN.l_description { float:left; }
+DIV.listing_description .narrow_block { float:left; }
+
+.ratings_stars { float:left; }
+
+/* --- MAP -------------------------- */
+DIV.map { margin:0 0 20px 6px; width:217px; }
+
+/* --- SIDE MENU --------------------- */
+.side_box_heading { text-align:right; }
+
+#content { background-image:url(../images/content_bg_rtl.gif); background-position:top right; background-repeat:no-repeat; padding:22px 0 0 0px; overflow:hidden; width:1170px; }
+
+/* --- SIDE MENU ------------------------- */
+#sidebar_left { width:200px; padding:0 15px 25px 17px; float:right; font-family:Tahoma, sans-serif; font-size:12px; color:#000000; }
+#sidebar_right { width:200px; padding:0 17px 25px 15px; float:right; font-family:Tahoma, sans-serif; font-size:12px; color:#000000; }
+
+#main        { width:644px; padding:0 15px; float:right; font-family:Tahoma, sans-serif; font-size:12px; color:#000000; }
+
+/* --- MAP -------------------------- */
+DIV.map                     { border:1px solid #cccccc; padding:5px; float:left; }
+
+/* --- ADVERTISE PLANS -------------- */
+DIV.advertise_plans_container {}
+DIV.advertise_plans_container .plans_wrapper {  padding:10px 0px 10px 0px;}
+DIV.advertise_plans_container DIV.item { float:right; }
+DIV.advertise_plans_container DIV.item_text LABEL B { float:left; }
+
+/* --- SEARCH ---------------------- */
+.header_search .search_adv      { float:right; padding:2px 0 0 2px; }
+.header_search .search_input    { float:right; padding:2px 2px 0 0; }
+
+/* --- GUIDE BLOCK ------------------ */
+#guide-block .step1 { float:right;  margin-right:0px;  }
+#guide-block .step2 { margin: 0 auto; }
+#guide-block .step3 { float:left; margin-left:0px; }
+
+.inquiry_wrapper .left_panel { float:right; }
+.inquiry_wrapper .left_panel label { float:right; }
+
+.inquiry_wrapper .right_panel { float:left; }
+.inquiry_wrapper .right_panel label { float:right; }
+
+/* --- INCOMING JOBS BLOCK ------------------ */
+.incoming_jobs .date_created { float:left; }

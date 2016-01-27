@@ -1,0 +1,57 @@
+/* --- LEFT RIGHT COLUMNS ---------------------- */
+#navColumnLeftWrapper H3.side_box_heading   { background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right; }
+#navColumnRightWrapper H3.side_box_heading  { background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right; }
+
+/* --- LEFT MENU ------------------------- */
+.main_menu_link	{ background-position:right center; background-image:url(../images/point_rtl.gif); background-repeat:no-repeat; text-align:right; padding-right:9px; }
+.main_menu_last { background:none; margin-left:-10px; margin-right:-10px; }
+
+/* --- SITE TOP ---------------------- */
+#siteLogo   { text-align:right; padding:0px 20px 0px 0px;  }
+#siteSlogan { text-align:right; padding:0px 20px 0px 0px; }
+#siteTop 	{ top:48px; padding:0px 40px 0px 0px; color:#fff; text-align:left; }
+
+/* --- BANNERS ------------------------- */
+DIV.slideshow-caption { text-align:right; }
+
+/* --- SEARCH ---------------------- */
+#navWrapper .header_search 			{ float:left; }
+.search_adv 			    { float:right; padding:3px 3px; margin-left:2px; height:20px; }
+.search_input 			    { float:right; margin-left:2px; }
+
+/* --- LISTINGS ---------------------- */
+DIV.listing_images_wrapper  { float:left; }
+DIV.listing_info .links { text-align:right; }
+DIV.listing_info .links .published { float:left; }
+IMG.listing_image           { padding:7px 6px 7px 0; }
+IMG.listing_icon            { margin:2px 4px 6px 1px; }
+
+DIV.listing_description .wide_block { float:right; }
+DIV.listing_description .wide_block UL.l_items LI { text-align:right; }
+DIV.listing_description .wide_block UL.l_items LI SPAN.l_description { float:left; }
+DIV.listing_description .narrow_block { float:left; }
+
+.ratings_stars { float:left; }
+
+/* --- MAP -------------------------- */
+DIV.map { margin:0 0 20px 5px; float:left; }
+
+/* --- ADVERTISE PLANS -------------- */
+DIV.advertise_plans_container {}
+DIV.advertise_plans_container .plans_wrapper { padding:10px 9px 10px 0px;}
+DIV.advertise_plans_container DIV.item { float:right; }
+DIV.advertise_plans_container DIV.item_text LABEL B { float:left; }
+
+/* --- GUIDE BLOCK ------------------ */
+#guide-block .step1 { float:right;  margin-right:0px;  }
+#guide-block .step2 { margin: 0 auto; }
+#guide-block .step3 { float:left; margin-left:0px; }
+
+.inquiry_wrapper .left_panel { float:right; }
+.inquiry_wrapper .left_panel label { float:right; }
+
+.inquiry_wrapper .right_panel { float:left; }
+.inquiry_wrapper .right_panel label { float:right; }
+
+/* --- INCOMING JOBS BLOCK ------------------ */
+.incoming_jobs .date_created { float:left; }
