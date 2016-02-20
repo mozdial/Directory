@@ -279,7 +279,8 @@ class Pages {
 					}
 				}
 
-				echo $page_text;
+				//echo $page_text;
+				//echo "<hr>";
 			
 				// draw all needed blocks for Home page
 				if($this->page['is_home']){

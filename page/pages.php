@@ -33,8 +33,8 @@ if($objSession->IsMessage('notice')){
 		if(Modules::IsModuleInstalled('adsense') &&
 		  (ModulesSettings::Get('adsense', 'adsense_code_activation') == 'All' || ModulesSettings::Get('adsense', 'adsense_code_activation') == 'Horizontal')
 		){
-			echo '<div class="adsense-horizontal">'.Adsense::GetHorizontalBanerCode().'</div>';
-		}			
+			//echo '<div class="adsense-horizontal">'.Adsense::GetHorizontalBanerCode().'</div>';
+		}	
 		$objPage->DrawText();
 	}else{
 		draw_title_bar(_PAGES);

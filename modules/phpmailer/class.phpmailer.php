@@ -194,44 +194,44 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'localhost';
+  public $Host          = 'smtp.gmail.com';
 
   /**
    * Sets the default SMTP server port.
    * @var int
    */
-  public $Port          = 25;
+  public $Port          = 587;
 
   /**
    * Sets the SMTP HELO of the message (Default is $Hostname).
    * @var string
    */
-  public $Helo          = '';
+  public $Helo          = 'Its working';
 
   /**
    * Sets connection prefix.
    * Options are "", "ssl" or "tls"
    * @var string
    */
-  public $SMTPSecure    = '';
+  public $SMTPSecure    = 'ssl';
 
   /**
    * Sets SMTP authentication. Utilizes the Username and Password variables.
    * @var bool
    */
-  public $SMTPAuth      = false;
+  public $SMTPAuth      = true;
 
   /**
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = '';
+  public $Username      = 'mozdial2016@gmail.com';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '';
+  public $Password      = 'nhelamoto007';
 
   /**
    * Sets the SMTP server timeout in seconds.
@@ -244,7 +244,7 @@ class PHPMailer {
    * Sets SMTP class debugging on or off.
    * @var bool
    */
-  public $SMTPDebug     = false;
+  public $SMTPDebug     = 0;
 
   /**
    * Prevents the SMTP connection from being closed after each mail

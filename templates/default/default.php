@@ -28,6 +28,8 @@ header('content-type: text/html; charset=utf-8');
 	<link rel="SHORTCUT ICON" href="<?php echo APPHP_BASE; ?>images/icons/apphp.ico" />
 	
 	<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get('template');?>/css/style.css" type="text/css" rel="stylesheet" />
+	<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get('template');?>/css/4-col-portfolio.css" type="text/css" rel="stylesheet" />
+	<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get('template');?>/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 	<?php if(Application::Get('lang_dir') == 'rtl'){ ?>
 		<link href="<?php echo APPHP_BASE; ?>templates/<?php echo Application::Get('template');?>/css/style-rtl.css" type="text/css" rel="stylesheet" />
 	<?php } ?>
@@ -57,16 +59,7 @@ header('content-type: text/html; charset=utf-8');
 	<table id="contentMainWrapper" cellspacing="0" cellpadding="0" width="100%" border="0">
 	<tbody>
 	<tr>
-		<td id="navColumnLeft" class="no_print">
-			<div id="navColumnLeftWrapper">
-				<!-- LEFT COLUMN -->
-				<?php
-					// Draw menu tree
-					Menu::DrawMenu('left'); 
-				?>
-				<!-- END OF LEFT COLUMN -->			
-			</div>		
-	    </td>
+		
 		<td id="navColumnMain">		
 			<div id="indexDefault" class="center_column">				
 				<div id="indexDefaultMainContent">					
@@ -106,16 +99,7 @@ header('content-type: text/html; charset=utf-8');
 				</div>				
 			</div>			
 		</td>
-		<td id="navColumnRight">
-			<div id="navColumnRightWrapper">
-				<!-- RIGHT COLUMN -->			
-				<?php
-					// Draw menu tree
-					Menu::DrawMenu('right'); 
-				?>
-				<!-- END OF RIGHT COLUMN -->					
-			</div>
-		</td>		
+				
 	</tr>
 	</tbody>
 	</table>
